@@ -2,6 +2,11 @@
 
 [Back to readme](../Readme.md)
 
+## general knowledge
+
+- https://en.wikipedia.org/wiki/Operating_system
+- https://en.wikipedia.org/wiki/MIME
+
 ## devops
 
 - network, protocols and standards
@@ -13,4 +18,5 @@
   - https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
   - https://en.wikipedia.org/wiki/File_Transfer_Protocol
   - https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+  - https://en.wikipedia.org/wiki/Network_address_translation
 

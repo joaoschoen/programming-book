@@ -7,7 +7,7 @@
 - difference between: 
   - library
   - framework
-    - application
+  - application
 
 ## devops
 

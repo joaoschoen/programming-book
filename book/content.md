@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a study on the structure of web development and it's many moving parts. The goal here is producing a comprehensive and holistic guide on what to study.
+This is a book on the structure of web development and it's many moving parts. The goal here is producing a comprehensive and holistic guide on how things work and what to study.
 
 I'd first like to set up the game plan on how this study will be structured, I'm going to follow an inside out approach on how to the topics, going from the innermost most simple components and building out to the things that surround it.
 
@@ -28,13 +28,17 @@ Every time a learning point is introduced, the text that will come after it assu
 
 #### Preface for beginners
 
-I should note here as a warning that this is not an article written for anyone who is illiterate in the basics of how to write a simple web application, my intent here is to structure and deepen the fundamentals.
+I should note here as a warning that this is not an article written for anyone who is illiterate in the basics of how to program, my intent here is to structure and deepen those fundamentals.
 
-As such I highly recommend that if you don't have any of this base knowledge that you follow these two learning points.
+As such I highly recommend that if you don't have any of this base knowledge that you follow this preface to the risk, it is going to guide you on starting points for learning how to program and the basics of what is software development.
 
-But before you do that there is a reassurance that I want to give to you, please don't be alarmed or stress yourself over not understanding the meaning of the terms that you read or hear while doing the basic learning.
+But before you do that there is a reassurance that I want to give to you, please don't be alarmed or stress yourself over not understanding the meaning of the terms that you read or hear while studying.
 
-You do not need to understand everything all at once that is going on, it is part of the process of learning to not understand things, if this still bothers you go on Wikipedia for any term that you don't understand and read **only** the first two paragraphs about it, this will give enough information for now.
+I myself am learning a lot while writing this book and reading the articles that I'll cite throughout it, there is no shame in not knowing or in having questions.
+
+You do not need to understand everything that is going on all at once, it is part of the process of learning to not understand things.
+
+If this still bothers you to not understand something, a good practice is looking on Wikipedia for any term that you don't understand and reading **only** the first two paragraphs about it, you don't need to understand in depth how things work, just what they are.
 
 Pro tip 1: note down every new term that you don't understand, over time this will help you measure how much you know and how much you don't know.
 
@@ -72,28 +76,11 @@ Pro tip 2: when on wikipedia, mousing over links will generally give you a summa
 - What you should do: 
   - Watch the whole video and follow the instructions, this will make you develop a complete application from scratch so by the end of it you'll understand the bare minimum required for understanding the rest of article
 
-# Defining the parts of what is Web Development
+Doing this will teach you the bare minimum required for following the rest of the book.
+
+# Defining what is Web Development
 
 The field of Software as a whole is a huge mess of things, it's a yarn ball that grows over time, has decades of knowledge, and that no mater how much string you pull out of it while studying it there never will come a point where you'll learn faster then the yarn ball grows, there's always more to learn.
-
-So it takes a lot of knowledge to be able to start to process what the hell is going on and try to organize things.
-
-The first thing that I will do in this journey is try to provide a definition of how we divide the many technologies we use in the web development world. Trying to define everything will drive me into the abyss, so I'll try to keep things simple, on broad strokes these are the categories:
-
-- Frontend
-- Backend
-- Database
-- Devops
-
-I listed them in order of what is closest to the user to what is furthest, if you work in web development you'll be somewhere amongst this stack, although using text only to represent this curses me because devops is actually a wrapper around the rest of the stack, but never mind that.
-
-A full stack application is one that has all layers of this stack and that is deployed on a computer somewhere on the internet, the layers of the stack communicate with each other through HTTP requests and an user's experience of using this application depends on the combined effort of all of this working together nicely.
-
-This gives us a basis but doesn't actually explain anything, because there's more to it, so let's expand things and let's do it by walking backwards before walking forwards.
-
-## Systems and applications
-
-### Operating System
 
 #### Learning Point:
 - Article: [System](https://en.wikipedia.org/wiki/System)
@@ -103,12 +90,53 @@ This gives us a basis but doesn't actually explain anything, because there's mor
   - Introduction
   - Information and computer science
 
-### Processes
+## Applications and computer processes
+
+When we run
+
+-- I'M CURRENTLY WRITING HERE, SO THINGS MIGHT CHANGE OR MOVE OUT OF ORDER
+
+#### Learning point
+- Article: [Process (computing)](https://en.wikipedia.org/wiki/Process_(computing))
+- Source: Wikipedia
+- Reading time:
 
 #### Learning point
 - Article: [IPC](https://en.wikipedia.org/wiki/Inter-process_communication) 
 - Source: Wikipedia
-- Reading time:
+- Reading time: ~8m
+
+
+The term application itself is often used to describe individual parts of the software or the software as a whole. Each part when looked as it's own is actually very simple and they are made to solve individual problems. 
+
+The amount of problems that need to be solved to make a working system is huge, so the logic is split and compartmentalized by it's function within the whole application.
+
+Trying to define everything will drive me into the abyss, so I'll try to keep things simple, on broad strokes these are the categories:
+
+- Frontend
+- Backend
+- Database
+- Devops
+
+The combination of all of them is what we call a "tech stack" or just "stack".
+
+I listed these categories in order of what is closest to the user to what is furthest, although using text only to represent this curses me because devops is actually a wrapper around the rest of the stack, but for now that is not that important.
+
+## Full Stack Application
+
+A full stack application then is one that has all layers of this stack and that is deployed on a computer somewhere on the internet. 
+
+Because the logic of how to do things is distributed between multiple layers, each of these layers has to communicate with each other to be able to solve the whole problem. 
+
+-- todo: 
+explanation about: 
+  how applications are run 
+  operating systems
+  processes
+
+## Systems and applications communication
+
+When we talk about communication we have to specify at which level we are talking about, applications can be in the same computer and trying to communicate or they can be different computers in different parts of the world trying to communicate.
 
 ### Applications
 
@@ -162,14 +190,13 @@ It is interesting to note that most of the work that is done in web development 
 #### Learning Point:
 - Article: [TCP/IP model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
 - Source: Wikipedia
-- Reading time: 
+- Reading time: ~56m
 - Skipped segments: 
   - History
+  - Layering evolution and representations in the literature
 - Recommended segments:
   - Introduction
   - Key architectural principles
-- Fun facts:
-  - here is where IP addresses are defined
 
 #### Innermost (physical) ⬇
 Link layer
