@@ -6,6 +6,8 @@
 
 - https://en.wikipedia.org/wiki/Operating_system
 - https://en.wikipedia.org/wiki/MIME
+- https://en.wikipedia.org/wiki/POSIX
+- https://en.wikipedia.org/wiki/Resource_Description_Framework
 
 ## devops
 

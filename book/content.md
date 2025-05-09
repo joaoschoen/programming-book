@@ -3,7 +3,7 @@
 # Table of contents
 
 - [Table of contents](#table-of-contents)
-- [Introduction](#introduction)
+- [Chapter 1: Introduction](#chapter-1-introduction)
   - [Methodology](#methodology)
   - [Learning points](#learning-points)
       - [Abstraction Layer](#abstraction-layer)
@@ -14,10 +14,37 @@
       - [World Wide Web](#world-wide-web)
       - [Full Stack Developer Roadmap](#full-stack-developer-roadmap)
       - [MERN Stack Tutorial with Deployment – Beginner's Course](#mern-stack-tutorial-with-deployment--beginners-course)
-- [Defining what is Web Development](#defining-what-is-web-development)
+- [Chapter 2: Sources of knowledge](#chapter-2-sources-of-knowledge)
+  - [roadmap.sh](#roadmapsh)
+  - [freecodecamp](#freecodecamp)
+  - [wikipedia](#wikipedia)
+  - [computerphile](#computerphile)
+  - [OWASP](#owasp)
+- [Chapter 3: Defining what is Web Development](#chapter-3-defining-what-is-web-development)
       - [Web development](#web-development)
+  - [Career paths and specializations](#career-paths-and-specializations)
+  - [Application Focused](#application-focused)
+    - [Frontend](#frontend)
+      - [User interface](#user-interface)
+      - [Web](#web)
+      - [Mobile](#mobile)
+    - [Backend](#backend)
+      - [API](#api)
+    - [Full Stack](#full-stack)
+  - [Data Focused](#data-focused)
+      - [Data](#data)
+    - [Data Analyst](#data-analyst)
+    - [Data Scientist](#data-scientist)
+    - [Machine Learning](#machine-learning)
+  - [Infrastructure Focused](#infrastructure-focused)
+      - [Data](#data-1)
+    - [DevOps engineer](#devops-engineer)
+    - [Cloud architect](#cloud-architect)
+  - [Reliability Focus](#reliability-focus)
+    - [QA](#qa)
+    - [Cyber Security](#cyber-security)
+  - [Chapter 4: Applications, systems and the internet](#chapter-4-applications-systems-and-the-internet)
       - [System](#system)
-  - [Applications and computer processes](#applications-and-computer-processes)
       - [Process (computing)](#process-computing)
       - [Inter-Process Communication](#inter-process-communication)
   - [Full Stack Application](#full-stack-application)
@@ -28,7 +55,7 @@
       - [TCP/IP model](#tcpip-model)
       - [HTTP](#http)
 
-# Introduction
+# Chapter 1: Introduction
 
 This is a book on the structure of web development and it's many moving parts. The goal here is producing a comprehensive and holistic guide on how things work and what to study.
 
@@ -145,31 +172,182 @@ So here is a full course on how to write an entire Full Stack Web Application, i
 
 I might add more learning points here as time goes on and, but doing all of them will teach you the bare minimum required for following the rest of the book.
 
-# Defining what is Web Development
+# Chapter 2: Sources of knowledge
 
-The field of Software as a whole is a huge mess of things, it's a yarn ball that grows over time, has decades of knowledge, and that no mater how much string you pull out of it while studying it there never will come a point where you'll learn faster then the yarn ball grows, there's always more to learn.
+Gathering knowledge about computer science and technologies is a constant research work, knowing where to look, what is important and what isn't, knowing what to study next, etc...
 
-Within this field there are multiple sub-fields that develop solutions to specific problems, web development being just one of them and the one I chose to follow a career in (and write this book about).
+I have been gathering a lot of these libraries of useful information over the years and here are some of them that I'd like to share
+
+## roadmap.sh
+
+This is a wonderful website to answer the question "what should I study next?", it contains various road maps based on skills or roles and tells you the order of what you should study next. During the course of this book I'll be using them as reference and linking to them when needed.
+
+[website](https://roadmap.sh)
+
+## freecodecamp
+
+As the name implies, freecodecamp is a group that focuses on providing the teaching of coding free for everyone, their website is an amazing platform for learning and their youtube channel is also amazing, containing dozens of courses that some times can be 20 hours long, they are very complete and detailed in their work.
+
+[Website](https://www.freecodecamp.org/)
+[YouTube channel](https://www.youtube.com/@freecodecamp)
+
+## wikipedia
+
+Good old reliable source of knowledge wikipedia, don't ignore them as a source of knowledge, they have absurd amounts of knowledge there and are a great source to study specific topics in a variety of different languages.
+
+[Website](https://www.wikipedia.org/)
+
+## computerphile
+
+If you want to acquire very deep and knowledge about Computer Science in general and expand your horizons about the field a great stop is Computerphile, they have amazing videos explaining in a very didactic way the fundamentals of everything related to Computer Science.
+
+[YouTube channel](https://www.youtube.com/Computerphile)
+
+## OWASP
+
+For knowledge of best practices about software security you should definitely always read the latest information provided by OWASP.
+
+[Website](https://owasp.org/)
+
+# Chapter 3: Defining what is Web Development
+
+Call it Software Development, Information Technology, Computer Science, however you put it the field of knowledge is absurdly vast.
+
+It's a yarn ball that grows over time, has decades of knowledge, and that no mater how much string you pull out of it while studying there never will come a point where you'll learn faster then the yarn ball grows, there's always more to learn.
+
+Within this field there are multiple sub-fields that develop solutions to specific problems and have different concerns, web development is just one of them and the one I chose to follow a career in (and write this book about).
 
 #### [Web development](https://en.wikipedia.org/wiki/Web_development)
 - Source: Wikipedia
-- Reading time: 
+- Reading time: ~46 minutes
 - Skipped segments:
   - Evolution of the World Wide Web and web development
+  - Server-side languages
+  - Agile methodology in web development
 
-My approach on organizing the knowledge about this 
+I can't really convey into words how much from this point onwards the complexity of what we have to discuss grows exponentially. Reading the article will give you an idea of how big it is.
 
+## Career paths and specializations
+
+Since we can't cover everything at once and honestly I don't believe I have the skill to do so while maintaining my sanity in check, I have chosen to divide the field in 4 categories based on the focus of their concerns, these being:
+
+- Application
+- Infrastructure
+- Data
+- Reliability
+
+So let's discuss those briefly.
+
+## Application Focused
+
+Some career paths are focused on the development of software products that provide a business solution to a problem. We can further divide this focus further into two groups:
+
+- Frontend
+- Backend
+
+### Frontend
+
+This group of career paths is focused on programming all that is related to what the user sees and interacts with.
+
+#### [User interface](https://en.wikipedia.org/wiki/User_interface)
+- Source: Wikipedia
+- Reading time: ~29 minutes
+- Skipped segments:
+  - Terminology
+  - History
+
+Developers in this space often interact with a few non-programmer professionals such as User Interface(UI) Designers, User Experience(UX) Designers and Product Managers.
+
+There are two major platforms where frontend applications live:
+
+#### Web
+
+These are websites that can be accessed through Web Browsers both on Mobile devices and Personal Computers.
+
+#### Mobile
+
+These are applications that run natively on either Android or iOS smartphones.
+
+### Backend
+
+This group of career paths is focused on manipulation, storage and retrieval of the state of the data of an application.
+
+#### [API](https://en.wikipedia.org/wiki/API)
+- Source: Wikipedia
+- Reading time: ~33 minutes
+- Skipped segments:
+  - History of the term
+  - Dispute over copyright protection for APIs
+
+Backend developers often interact with frontend developers, other non-technical teams in a company such as marketing or finance, product managers, users and clients, in order to define the business logic of the application.
+
+### Full Stack
+
+These developers don't tend to specialize in one either frontend or backend, instead their approach is to work in both at the same time, integrating UI with APIs and Databases 
+
+## Data Focused
+
+#### [Data](https://en.wikipedia.org/wiki/Data)
+- Source: Wikipedia
+- Reading time:
+- Skipped segments:
+  - History of the term
+  - Dispute over copyright protection for APIs
+
+
+This group of career paths is focused on working with the data itself, there are four major routes:
+
+
+### Data Analyst
+
+Focuses on interpreting existing data to generate insights and support decision-making. Their work is more descriptive and diagnostic — answering what happened and why.
+
+### Data Scientist
+
+Focuses on interpreting existing data to generate insights and support decision-making. Their work is more descriptive and diagnostic — answering what happened and why.
+
+### Machine Learning
+
+Machine Learning is a branch of artificial intelligence where systems learn from data to make predictions or automate decisions without being explicitly programmed for each task.
+
+## Infrastructure Focused
+
+#### [Data](https://en.wikipedia.org/wiki/IT_infrastructure)
+- Source: Wikipedia
+- Reading time: ~7 minutes
+
+This group of career paths is focused on not on the application itself but on the environment surrounding the application. I'll divide this into two career paths
+
+### DevOps engineer
+
+The job of the DevOps engineer is to establish the continuous integration and delivery of software, building systems to automate tasks such as testing, deployment and monitoring.
+
+### Cloud architect
+
+The cloud architect is the other side of the coin of DevOps, focusing on the design and maintenance of cloud infrastructure. 
+
+Their job is to analyze the security, scalability and cost-effectiveness of web solutions in cloud environments such as AWS, Azure or GCP, as well as setup all of the resources that will be necessary to run the application.
+
+## Reliability Focus
+
+This group of career paths is focused on the quality of the software being delivered. This can be divided into two concerns:
+
+### QA
+
+A Quality Assurance specialist's job is to guarantee the integrity of the software development processes and products.
+
+### Cyber Security
+
+A cyber security specialist's job is to protect systems and networks from attacks, create defense mechanisms and strategies to guarantee that sensitive information and systems are secure and that only authorized users can access it.
+
+## Chapter 4: Applications, systems and the internet
 
 #### [System](https://en.wikipedia.org/wiki/System)
 - Source: Wikipedia
-- Reading time: ~3m
+- Reading time: ~3 minutes
 - Recommended segments:
   - Introduction
   - Information and computer science
-
-
-
-## Applications and computer processes
 
 So we use systems, we write programs and execute them inside this system, and since the logic of our application is spread between multiple parts 
 
@@ -190,10 +368,6 @@ The amount of problems that need to be solved to make a working system is huge, 
 
 Trying to define everything will drive me into the abyss, so I'll try to keep things simple, on broad strokes these are the categories:
 
-- Frontend
-- Backend
-- Database
-- Devops
 
 The combination of all of them is what we call a "tech stack" or just "stack".
 

@@ -2,7 +2,7 @@
 
 ## Who am I
 
-Hello, my name is João (it's a nightmare to pronounce for english speakers, I know), I've been programming since 2015 and have entered the world of Web Development in 2020, I've been streaming the process of writing this book on [Twitch](https://twitch.tv/hordian)
+Hello, my name is João but my nickname online is Hordian so you can call me that instead if it's easier to pronounce, I've been programming since 2015 and have entered the world of Web Development in 2020, I've been streaming the process of writing this book on [Twitch](https://twitch.tv/hordian)
 
 ## What is this
 
