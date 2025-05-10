@@ -20,7 +20,7 @@ I have set up link between the files that contain the content of this book, you 
 
 Each file also contains a link to going back to the previous file 
 
-And they will also contain links to help navigation such as going back to the top of the current file and navigating between topics (WORK IN PROCESS)
+And they will also contain links to help navigation such as going back to the top of the current file and navigating between topics (WORK IN PROGRESS)
 
 ### Book folder
 
