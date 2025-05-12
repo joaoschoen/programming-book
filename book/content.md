@@ -22,7 +22,37 @@
   - [wikipedia](#wikipedia)
   - [computerphile](#computerphile)
   - [OWASP](#owasp)
-- [Chapter 3: Defining what is Web Development](#chapter-3-defining-what-is-web-development)
+- [Chapter 3: A brief history of mathematics, philosophy and technology](#chapter-3-a-brief-history-of-mathematics-philosophy-and-technology)
+      - [Set theory](#set-theory)
+      - [René Descartes](#rené-descartes)
+      - [Charles Babbage](#charles-babbage)
+      - [George Boole](#george-boole)
+      - [Trolls are easily defeated | Shannon's Ghost](#trolls-are-easily-defeated--shannons-ghost)
+      - [Claude Shannon](#claude-shannon)
+      - [Alan Turing](#alan-turing)
+      - [Nuclear Fruit](#nuclear-fruit)
+      - [Turing machines explained](#turing-machines-explained)
+      - [John Von Neumann](#john-von-neumann)
+      - [EDSAC Simulator](#edsac-simulator)
+    - [What we take away from history](#what-we-take-away-from-history)
+- [Chapter 4: Problems, problem solving, functions (WIP)](#chapter-4-problems-problem-solving-functions-wip)
+      - [Computer Program](#computer-program)
+      - [Algorithm](#algorithm)
+  - [How we can store this information in a  computer](#how-we-can-store-this-information-in-a--computer)
+- [Chapter 5: Computers (WIP)](#chapter-5-computers-wip)
+      - [Von Neumann Architecture](#von-neumann-architecture)
+- [Chapter 6: Applications, systems and the internet (WIP)](#chapter-6-applications-systems-and-the-internet-wip)
+      - [System](#system)
+      - [Process (computing)](#process-computing)
+      - [Inter-Process Communication](#inter-process-communication)
+  - [Full Stack Application](#full-stack-application)
+  - [Systems and applications communication](#systems-and-applications-communication)
+    - [Applications](#applications)
+  - [The layers of communication systems](#the-layers-of-communication-systems)
+      - [OSI model](#osi-model)
+      - [TCP/IP model](#tcpip-model)
+      - [HTTP](#http)
+- [Chapter 7: Defining what is Web Development](#chapter-7-defining-what-is-web-development)
       - [Web development](#web-development)
   - [Career paths and specializations](#career-paths-and-specializations)
   - [Application Focused](#application-focused)
@@ -45,25 +75,6 @@
   - [Reliability Focus](#reliability-focus)
     - [QA](#qa)
     - [Cyber Security](#cyber-security)
-  - [Chapter 3: A history of mathematics, philosophy and problem solving (WIP)](#chapter-3-a-history-of-mathematics-philosophy-and-problem-solving-wip)
-      - [Set theory](#set-theory)
-      - [René Descartes](#rené-descartes)
-      - [George Boole](#george-boole)
-      - [Trolls are easily defeated | Shannon's Ghost](#trolls-are-easily-defeated--shannons-ghost)
-  - [Chapter 4: Problems, problem solving, functions (WIP)](#chapter-4-problems-problem-solving-functions-wip)
-  - [Chapter 5: Computers (WIP)](#chapter-5-computers-wip)
-      - [Von Neumann Architecture](#von-neumann-architecture)
-  - [Chapter 6: Applications, systems and the internet (WIP)](#chapter-6-applications-systems-and-the-internet-wip)
-      - [System](#system)
-      - [Process (computing)](#process-computing)
-      - [Inter-Process Communication](#inter-process-communication)
-  - [Full Stack Application](#full-stack-application)
-  - [Systems and applications communication](#systems-and-applications-communication)
-    - [Applications](#applications)
-  - [The layers of communication systems](#the-layers-of-communication-systems)
-      - [OSI model](#osi-model)
-      - [TCP/IP model](#tcpip-model)
-      - [HTTP](#http)
 
 # Chapter 1: Introduction
 
@@ -229,7 +240,288 @@ For knowledge of best practices about software security you should definitely al
 
 [Website](https://owasp.org/)
 
-# Chapter 3: Defining what is Web Development
+# Chapter 3: A brief history of mathematics, philosophy and technology
+
+I believe there is a fundamental understanding that has to be achieved before a person can understand programming, there is a structure and logic to why we do the things the way we do them. In it's essence what we are trying to do is to solve problems, and not only that but automate the resolution of problems so that a machine can do it for us instead of us doing ourselves.
+
+As such we need to define what a problem is to then be able to look at problems and decompose them into pieces of information we can solve. 
+
+The history behind the things that came to be for computers to exist is fascinating, I often skip the history of things later in the book but here I'll allow myself to drift into that and put into the limelight the enlightened minds who'se work would eventually coalesce into the invention of computers.
+
+The learning points in this chapter are purely for curiosity sake and aren't necessarily required reading because at times they'll be very hard to understand because they are talking about very abstract mathematical constructs or just people who'se names are important to know if you're interested in the history of computers.
+
+I'll give a brief explanation of what is the important takeaway from them.
+
+#### [Set theory](https://en.wikipedia.org/wiki/Set_theory)
+- Source: Wikipedia
+- Time frame: as early as the 3rd century AD
+
+The idea of organizing things starts with mathematicians and set theory, given many different objects, how can we define rules to separate them into categories.
+
+#### [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
+- Source: Wikipedia
+- Born: 1596
+- Invention: 
+  - [Cartesian doubt](https://en.wikipedia.org/wiki/Cartesian_doubt)
+
+René Descartes also shared this concern of categorizing things to such a degree that he created a method to define and structure problems, the Cartesian method defines the process of breaking down problems into their most simple parts in order to try and solve them, he was a mathematician and a philosopher, his work of philosophy exposed the nature of problem solving.
+
+#### [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)
+- Source: Wikipedia
+- Born:1791
+- Invention: [Analytical engine](https://en.wikipedia.org/wiki/Analytical_engine)
+
+Babbage's work was a first step on machine automation of computational tasks, the first computers were electromechanical machines, instead of using electronic signals to both store the state and execute the computation, it used gears. 
+
+But because of the nature of gears being a very complex solution to a very complex problem this technology reached it's limitations very quick.
+
+#### [George Boole](https://en.wikipedia.org/wiki/George_Boole)
+- Source: Wikipedia
+- Born: 1815
+- Invention: [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+
+Building upon Descartes, another fundamental stepping stone that was set on the road that lead to the invention of computers was George Boole's work in Boolean Algebra. 
+
+Some problems have too many possible answers to try to put into the same system, if you ask people what their favorite ice cream flavor is you'll get a myriad of possible answers.
+
+So instead of asking questions that can have many different answers, let's focus our work on asking questions that have only 2 possible answers, true or false.
+
+
+#### [Trolls are easily defeated | Shannon's Ghost](https://www.youtube.com/watch?v=UZ4FdU7px_w)
+- Source: Youtube channel AvE (he's a very funny guy)
+- Watch time: the video is about an hour long but you don't need to watch it all, the important takeaway is the story of Claude Shannon
+
+#### [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon)
+- Source: Wikipedia
+- Born:1916
+
+The video explains it all but the main takeaway is that Claude Shannon while designing computers at the time combined this with Boolean logic, so instead of trying to represent the state of a value with a cog that could have ten, thirty, one hundred different states, let's store this in an electronic signal that only has two states, on or off, true or false.
+
+So he moved computers from a mechanical application using gears to an electromechanical implementation using switches and relays.
+
+#### [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)
+- Source: Wikipedia
+- Born:1912
+- Invention: [Universal turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
+
+Alan Turing's work is too big to put to paper in a short way, but one of his most important takeaways here is the Universal Turing Machine, this is the basic concept of what a system has to have in order to be able to perform computations
+
+#### [Nuclear Fruit](https://www.youtube.com/watch?v=15dxuAbTC0A)
+- Source: Youtube channel Ahoy
+- Watch time: 1 hour 8 minutes
+
+This is a lovely documentary about the history of computers and videogames, Ahoy is an excellent channel and this video talks a bit about the work of turing and how war shaped how the modern world works and the technology that was developed at the time.
+
+#### [Turing machines explained](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+- Source: Youtube channel Computerphile
+- Watch time: 5 minutes
+
+Short video explaining what is a turing machine.
+
+#### [John Von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
+- Source: Wikipedia
+- Born: 1903
+- Invention: [Von Neumann architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
+
+Neumann's work was on the electronic architecture of we now think of as computers, defining a system where you have an input where values come in, a control unit that takes decisions on what to do with this value, an arithmetic and logic unit to do the calculations, a memory unit to store the instructions of the program and the data, and then an output where the result of the calculation goes out.
+
+#### [EDSAC Simulator](https://www.youtube.com/watch?v=lXJ-tYqPARg)
+- Source: Youtube channel Computerphile
+- Watch time: 18 minutes
+
+This video talks about one of the first implementations of a Von Neumann machine.
+
+### What we take away from history
+
+The amount knowledge and science that needed to be developed and brought together over the centuries is immense, I don't believe this is a at all a full view of how computer science came to be, but for the purposes of what I need I feel it is good enough for us to begin building programming logic.
+
+# Chapter 4: Problems, problem solving, functions (WIP)
+
+In the real world the situations we have to solve are called problems, in computers, the instructions on how to solve a problem are called programs.
+
+#### [Computer Program](https://en.wikipedia.org/wiki/Computer_program)
+- Source: Wikipedia
+- Reading time: ~2 minutes
+- Recommended sections: 
+  - Introduction
+
+This seems to be very complicated at first, but at first let's think about problems in the real world, I have an example that shows some of these [problems](./examples/problems.md).
+
+Now that we know that problems in the real world can be solved by defining a set of instructions and following them, we can call it by it's proper name in computing which is an Algorithm.
+
+#### [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
+- Source: Wikipedia
+- Reading time: ~2 minutes
+- Recommended sections:
+  - Introduction
+
+Knowing now what a set is, and what an algorithm is we
+
+boolean logic
+
+functions
+
+truth tables
+
+complexity of problems
+
+big o notation
+
+
+## How we can store this information in a  computer
+
+In computer science the information that we store about the world is called data, data can have many shapes and forms, it can represent various different things like numbers or letters, and we can organize this data into various different structures.
+
+Computers store data as electronic signals that can be turned on or off, we can read this as ones and zeroes, and we invented a way of transforming letters and numbers into these ones and zeroes.
+
+The smallest amount of information that we can store is one of these on and off signals which we call a bit, a group of 8 bits is called a byte.
+
+The text in a page is the data that we are storing there, it's a collection of letters and numbers, in 
+
+https://www.asciitable.com/
+
+
+# Chapter 5: Computers (WIP)
+
+At this point we've been taking a look into the highest end of the complexity curve and what problems the field of web development is concerned with solving.
+
+Let's step down into the trenches of electronic and computer engineering, let's have a deep dive on how computer systems work on a very fundamental level so we can start building complexity back up.
+
+But how much down do we have to go? at some point the knowledge becomes historical curiosity
+
+#### [Von Neumann Architecture](https://www.youtube.com/watch?v=Ml3-kVYLNr8)
+- Source: Youtube channel Computerphile
+- Watch time: 16 minutes
+
+# Chapter 6: Applications, systems and the internet (WIP)
+
+Focusing on the development side of applications
+
+#### [System](https://en.wikipedia.org/wiki/System)
+- Source: Wikipedia
+- Reading time: ~3 minutes
+- Recommended segments:
+  - Introduction
+  - Information and computer science
+
+So we use systems, we write programs and execute them inside this system, and since the logic of our application is spread between multiple parts 
+
+#### [Process (computing)](https://en.wikipedia.org/wiki/Process_(computing))
+- Source: Wikipedia
+- Reading time: ~20m
+- Skipped segments:
+  - Inter-process communication
+  - History
+
+#### [Inter-Process Communication](https://en.wikipedia.org/wiki/Inter-process_communication) 
+- Source: Wikipedia
+- Reading time: ~8m 
+
+The term application itself is often used to describe individual parts of the software or the software as a whole. Each part when looked as it's own is actually very simple and they are made to solve individual problems. 
+
+The amount of problems that need to be solved to make a working system is huge, so the logic is split and compartmentalized by it's function within the whole application.
+
+Trying to define everything will drive me into the abyss, so I'll try to keep things simple, on broad strokes these are the categories:
+
+
+The combination of all of them is what we call a "tech stack" or just "stack".
+
+I listed these categories in order of what is closest to the user to what is furthest, although using text only to represent this curses me because devops is actually a wrapper around the rest of the stack, but for now that is not that important.
+
+## Full Stack Application
+
+A full stack application then is one that has all layers of this stack and that is deployed on a computer somewhere on the internet. 
+
+Because the logic of how to do things is distributed between multiple layers, each of these layers has to communicate with each other to be able to solve the whole problem. 
+
+-- todo: 
+explanation about: 
+  how applications are run 
+  operating systems
+  processes
+
+## Systems and applications communication
+
+When we talk about communication we have to specify at which level we are talking about, applications can be in the same computer and trying to communicate or they can be different computers in different parts of the world trying to communicate.
+
+### Applications
+
+
+
+## The layers of communication systems
+
+Let's imagine a simple scenario: A user accesses a website
+
+How many systems were involved in this? 
+
+On the user side to access it they need a web browser, this web browser is running on top of an operating system, this operating system is running inside a hardware, be it a computer or a cellphone (which is also a computer by the way).
+
+The website has to communicate with the browser to navigate to the website, the browser has to package this information in an HTTP request and send communicate it to the OS, the OS has to package that and then communicate with the outside world.
+
+Thousands of systems are then added into the mixture, radio towers, miles of fiber optic cables, routers, the whole physical network of the internet.
+
+Then it gets to it's destination, it hit's the world of DevOps first, here a plethora of possibilities exist on what can happen.
+
+All of these systems need to know how to communicate with each other, which brings us to two important standards of how these networks work: the OSI model and the TCP/IP model
+
+#### [OSI model](https://en.wikipedia.org/wiki/OSI_model)
+- Source: Wikipedia
+- Reading time: ~50m
+- Skipped segments:
+  - History
+  - Comparison to other networking suites
+- Minimum recommended segments:
+  - Introduction
+  - Definition
+  - Layer architecture
+- Fun facts: I learned here what the hell is a MAC address and where it comes from
+
+This is an inside out visualization of how the communication between computers work, so now you know where these names come from when I and any further learning point references these layers.
+
+Innermost (physical) ⬇
+1. Physical layer
+2. Data link layer
+3. Network layer
+4. Transport layer
+5. Session layer
+6. Presentation layer
+7. Application layer
+Outermost (digital) ⬆
+
+It is a more electronics focused approach because it resides more along the world of computer and electronics engineering then proper computer science and web development.
+
+It is interesting to note that most of the work that is done in web development happens between the Session and Application layers while the Transport layer and all layers below are taken for granted to us.
+
+#### [TCP/IP model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+- Source: Wikipedia
+- Reading time: ~56m
+- Skipped segments: 
+  - History
+  - Layering evolution and representations in the literature
+- Recommended segments:
+  - Introduction
+  - Key architectural principles
+
+Innermost (physical) ⬇
+- Link layer
+- Internet layer
+- Transport layer
+- Application layer
+Outermost (digital) ⬆
+
+With both models using the same names but meaning different things it's no wonder people have a hard time learning computer science, luckily for us the good folk that write Wikipedia have explained in both the OSI an the TCP/IP articles how these layers are mapped between the models.
+
+With this we know the definitions and standards put in place to make system communication possible, but we still don't know how applications communicate.
+
+#### [HTTP](https://en.wikipedia.org/wiki/HTTP)
+- Source: Wikipedia
+- Reading time: 
+- Skipped segments: History
+
+And now we do, the HTTP standard is the working horse of web development communication.
+
+
+# Chapter 7: Defining what is Web Development
 
 Call it Software Development, Information Technology, Computer Science, however you put it the field of knowledge is absurdly vast.
 
@@ -359,190 +651,3 @@ A Quality Assurance specialist's job is to guarantee the integrity of the softwa
 ### Cyber Security
 
 A cyber security specialist's job is to protect systems and networks from attacks, create defense mechanisms and strategies to guarantee that sensitive information and systems are secure and that only authorized users can access it.
-
-## Chapter 3: A history of mathematics, philosophy and problem solving (WIP)
-
-I believe there is a fundamental understanding that has to be achieved before a person can understand programming, there is a structure and logic to why we do the things the way we do them. In it's essence what we are trying to do is to solve problems, and not only that but automate the resolution of problems so that a machine can do it for us instead of us doing ourselves.
-
-As such we need to define what a problem is to then be able to look at problems and decompose them into pieces of information we can solve. 
-
-The history behind the things that came to be for computers to exist is fascinating, I often skip the history of things later in the book but here I'll allow myself to drift into that and put into the limelight the enlightened minds who'se work would eventually coalesce into the invention of computers.
-
-The learning points in this chapter are purely for curiosity sake and aren't necessarily required reading because at times they'll be very hard to understand because they are talking about very abstract mathematical constructs, but if you're interested in the history of computers they are names worth knowing, I'll give a brief explanation of what is the important takeaway from them.
-
-#### [Set theory](https://en.wikipedia.org/wiki/Set_theory)
-- Source: Wikipedia
-- Time frame:
-
-#### [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
-- Source: Wikipedia
-- Born: 1596
-- Invention: 
-  - [Cartesian doubt](https://en.wikipedia.org/wiki/Cartesian_doubt)
-
-The first mind I'll bring upon this topic is that of René Descartes to show that the concern about how to define and structure problems isn't something new, the Cartesian method defines the process of breaking down problems into their most simple parts in order to try and solve them, he was a mathematician and a philosopher, his work of philosophy exposed the nature of problem solving.
-
-#### [George Boole](https://en.wikipedia.org/wiki/George_Boole)
-- Source: Wikipedia
-- Born: 1815
-- Invention: [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-
-Building upon Descartes, another fundamental stepping stone that was set on the road that lead to the invention of computers was George Boole's work in Boolean Algebra. Some problems have too many answers to try to put into the same system, if you ask people what their favorite ice cream flavor is you'll get a myriad of possible answers
-
-#### [Trolls are easily defeated | Shannon's Ghost](https://www.youtube.com/watch?v=UZ4FdU7px_w)
-- Source: Youtube channel AvE (he's a very funny guy)
-- Watch time: the video is about an hour long but you don't need to watch it all, the important takeaway is the story of Claude Elwood Shannon
-
-## Chapter 4: Problems, problem solving, functions (WIP)
-
-boolean logic
-
-functions
-
-truth tables
-
-complexity of problems
-
-big o notation
-
-## Chapter 5: Computers (WIP)
-
-At this point we've been taking a look into the highest end of the complexity curve and what problems the field of web development is concerned with solving.
-
-Let's step down into the trenches of electronic and computer engineering, let's have a deep dive on how computer systems work on a very fundamental level so we can start building complexity back up.
-
-But how much down do we have to go? at some point the knowledge becomes historical curiosity
-
-#### [Von Neumann Architecture](https://www.youtube.com/watch?v=Ml3-kVYLNr8)
-- Source: Youtube channel Computerphile
-- Watch time: 16 minutes
-
-
-
-## Chapter 6: Applications, systems and the internet (WIP)
-
-Focusing on the development side of applications
-
-#### [System](https://en.wikipedia.org/wiki/System)
-- Source: Wikipedia
-- Reading time: ~3 minutes
-- Recommended segments:
-  - Introduction
-  - Information and computer science
-
-So we use systems, we write programs and execute them inside this system, and since the logic of our application is spread between multiple parts 
-
-#### [Process (computing)](https://en.wikipedia.org/wiki/Process_(computing))
-- Source: Wikipedia
-- Reading time: ~20m
-- Skipped segments:
-  - Inter-process communication
-  - History
-
-#### [Inter-Process Communication](https://en.wikipedia.org/wiki/Inter-process_communication) 
-- Source: Wikipedia
-- Reading time: ~8m 
-
-The term application itself is often used to describe individual parts of the software or the software as a whole. Each part when looked as it's own is actually very simple and they are made to solve individual problems. 
-
-The amount of problems that need to be solved to make a working system is huge, so the logic is split and compartmentalized by it's function within the whole application.
-
-Trying to define everything will drive me into the abyss, so I'll try to keep things simple, on broad strokes these are the categories:
-
-
-The combination of all of them is what we call a "tech stack" or just "stack".
-
-I listed these categories in order of what is closest to the user to what is furthest, although using text only to represent this curses me because devops is actually a wrapper around the rest of the stack, but for now that is not that important.
-
-## Full Stack Application
-
-A full stack application then is one that has all layers of this stack and that is deployed on a computer somewhere on the internet. 
-
-Because the logic of how to do things is distributed between multiple layers, each of these layers has to communicate with each other to be able to solve the whole problem. 
-
--- todo: 
-explanation about: 
-  how applications are run 
-  operating systems
-  processes
-
-## Systems and applications communication
-
-When we talk about communication we have to specify at which level we are talking about, applications can be in the same computer and trying to communicate or they can be different computers in different parts of the world trying to communicate.
-
-### Applications
-
-
-
-## The layers of communication systems
-
-Let's imagine a simple scenario: A user accesses a website
-
-How many systems were involved in this? 
-
-On the user side to access it they need a web browser, this web browser is running on top of an operating system, this operating system is running inside a hardware, be it a computer or a cellphone (which is also a computer by the way).
-
-The website has to communicate with the browser to navigate to the website, the browser has to package this information in an HTTP request and send communicate it to the OS, the OS has to package that and then communicate with the outside world.
-
-Thousands of systems are then added into the mixture, radio towers, miles of fiber optic cables, routers, the whole physical network of the internet.
-
-Then it gets to it's destination, it hit's the world of DevOps first, here a plethora of possibilities exist on what can happen.
-
-All of these systems need to know how to communicate with each other, which brings us to two important standards of how these networks work: the OSI model and the TCP/IP model
-
-#### [OSI model](https://en.wikipedia.org/wiki/OSI_model)
-- Source: Wikipedia
-- Reading time: ~50m
-- Skipped segments:
-  - History
-  - Comparison to other networking suites
-- Minimum recommended segments:
-  - Introduction
-  - Definition
-  - Layer architecture
-- Fun facts: I learned here what the hell is a MAC address and where it comes from
-
-This is an inside out visualization of how the communication between computers work, so now you know where these names come from when I and any further learning point references these layers.
-
-Innermost (physical) ⬇
-1. Physical layer
-2. Data link layer
-3. Network layer
-4. Transport layer
-5. Session layer
-6. Presentation layer
-7. Application layer
-Outermost (digital) ⬆
-
-It is a more electronics focused approach because it resides more along the world of computer and electronics engineering then proper computer science and web development.
-
-It is interesting to note that most of the work that is done in web development happens between the Session and Application layers while the Transport layer and all layers below are taken for granted to us.
-
-#### [TCP/IP model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-- Source: Wikipedia
-- Reading time: ~56m
-- Skipped segments: 
-  - History
-  - Layering evolution and representations in the literature
-- Recommended segments:
-  - Introduction
-  - Key architectural principles
-
-Innermost (physical) ⬇
-- Link layer
-- Internet layer
-- Transport layer
-- Application layer
-Outermost (digital) ⬆
-
-With both models using the same names but meaning different things it's no wonder people have a hard time learning computer science, luckily for us the good folk that write Wikipedia have explained in both the OSI an the TCP/IP articles how these layers are mapped between the models.
-
-With this we know the definitions and standards put in place to make system communication possible, but we still don't know how applications communicate.
-
-#### [HTTP](https://en.wikipedia.org/wiki/HTTP)
-- Source: Wikipedia
-- Reading time: 
-- Skipped segments: History
-
-And now we do, the HTTP standard is the working horse of web development communication.
-
