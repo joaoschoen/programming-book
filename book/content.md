@@ -8,6 +8,8 @@
   - [Learning points](#learning-points)
       - [Abstraction Layer](#abstraction-layer)
   - [A Preface for beginners](#a-preface-for-beginners)
+    - [Editor note:](#editor-note)
+    - [End of editor note](#end-of-editor-note)
   - [Learning how to program](#learning-how-to-program)
       - [Learn JavaScript - Full Course for Beginners](#learn-javascript---full-course-for-beginners)
       - [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
@@ -43,7 +45,15 @@
   - [Reliability Focus](#reliability-focus)
     - [QA](#qa)
     - [Cyber Security](#cyber-security)
-  - [Chapter 4: Applications, systems and the internet](#chapter-4-applications-systems-and-the-internet)
+  - [Chapter 3: A history of mathematics, philosophy and problem solving (WIP)](#chapter-3-a-history-of-mathematics-philosophy-and-problem-solving-wip)
+      - [Set theory](#set-theory)
+      - [René Descartes](#rené-descartes)
+      - [George Boole](#george-boole)
+      - [Trolls are easily defeated | Shannon's Ghost](#trolls-are-easily-defeated--shannons-ghost)
+  - [Chapter 4: Problems, problem solving, functions (WIP)](#chapter-4-problems-problem-solving-functions-wip)
+  - [Chapter 5: Computers (WIP)](#chapter-5-computers-wip)
+      - [Von Neumann Architecture](#von-neumann-architecture)
+  - [Chapter 6: Applications, systems and the internet (WIP)](#chapter-6-applications-systems-and-the-internet-wip)
       - [System](#system)
       - [Process (computing)](#process-computing)
       - [Inter-Process Communication](#inter-process-communication)
@@ -93,6 +103,16 @@ I will provide explanations or examples where I believe they are needed but I wi
 If a learning point has an example I will contain a link to the file containing said example and on that file a link to come back to the learning point.
 
 ## A Preface for beginners
+
+### Editor note:
+
+The structure of this book is changing a lot while I write it, I'm writing this during the writing of chapter 4, I will have to rewrite a lot of it over time to conform to the way I want things to be, as such this preface will be edited out or moved later.
+
+If you want to have a hands on approach to how you do your studying and get a more practical approach then you can still follow my recommendations in this preface, however, I'm working on writing a deeper guidance on computer science.
+
+I do however believe that you can learn through following my suggestions below.
+
+### End of editor note 
 
 If you are a beginner and are using this book as a source of knowledge I do expect you to have already gone through the Abstraction Layers learning point, after all I can't do your studying for you.
 
@@ -340,7 +360,68 @@ A Quality Assurance specialist's job is to guarantee the integrity of the softwa
 
 A cyber security specialist's job is to protect systems and networks from attacks, create defense mechanisms and strategies to guarantee that sensitive information and systems are secure and that only authorized users can access it.
 
-## Chapter 4: Applications, systems and the internet
+## Chapter 3: A history of mathematics, philosophy and problem solving (WIP)
+
+I believe there is a fundamental understanding that has to be achieved before a person can understand programming, there is a structure and logic to why we do the things the way we do them. In it's essence what we are trying to do is to solve problems, and not only that but automate the resolution of problems so that a machine can do it for us instead of us doing ourselves.
+
+As such we need to define what a problem is to then be able to look at problems and decompose them into pieces of information we can solve. 
+
+The history behind the things that came to be for computers to exist is fascinating, I often skip the history of things later in the book but here I'll allow myself to drift into that and put into the limelight the enlightened minds who'se work would eventually coalesce into the invention of computers.
+
+The learning points in this chapter are purely for curiosity sake and aren't necessarily required reading because at times they'll be very hard to understand because they are talking about very abstract mathematical constructs, but if you're interested in the history of computers they are names worth knowing, I'll give a brief explanation of what is the important takeaway from them.
+
+#### [Set theory](https://en.wikipedia.org/wiki/Set_theory)
+- Source: Wikipedia
+- Time frame:
+
+#### [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
+- Source: Wikipedia
+- Born: 1596
+- Invention: 
+  - [Cartesian doubt](https://en.wikipedia.org/wiki/Cartesian_doubt)
+
+The first mind I'll bring upon this topic is that of René Descartes to show that the concern about how to define and structure problems isn't something new, the Cartesian method defines the process of breaking down problems into their most simple parts in order to try and solve them, he was a mathematician and a philosopher, his work of philosophy exposed the nature of problem solving.
+
+#### [George Boole](https://en.wikipedia.org/wiki/George_Boole)
+- Source: Wikipedia
+- Born: 1815
+- Invention: [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+
+Building upon Descartes, another fundamental stepping stone that was set on the road that lead to the invention of computers was George Boole's work in Boolean Algebra. Some problems have too many answers to try to put into the same system, if you ask people what their favorite ice cream flavor is you'll get a myriad of possible answers
+
+#### [Trolls are easily defeated | Shannon's Ghost](https://www.youtube.com/watch?v=UZ4FdU7px_w)
+- Source: Youtube channel AvE (he's a very funny guy)
+- Watch time: the video is about an hour long but you don't need to watch it all, the important takeaway is the story of Claude Elwood Shannon
+
+## Chapter 4: Problems, problem solving, functions (WIP)
+
+boolean logic
+
+functions
+
+truth tables
+
+complexity of problems
+
+big o notation
+
+## Chapter 5: Computers (WIP)
+
+At this point we've been taking a look into the highest end of the complexity curve and what problems the field of web development is concerned with solving.
+
+Let's step down into the trenches of electronic and computer engineering, let's have a deep dive on how computer systems work on a very fundamental level so we can start building complexity back up.
+
+But how much down do we have to go? at some point the knowledge becomes historical curiosity
+
+#### [Von Neumann Architecture](https://www.youtube.com/watch?v=Ml3-kVYLNr8)
+- Source: Youtube channel Computerphile
+- Watch time: 16 minutes
+
+
+
+## Chapter 6: Applications, systems and the internet (WIP)
+
+Focusing on the development side of applications
 
 #### [System](https://en.wikipedia.org/wiki/System)
 - Source: Wikipedia

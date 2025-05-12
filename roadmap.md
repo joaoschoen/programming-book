@@ -13,26 +13,3 @@ Chapter 6:
 Chapter 7: 
     Devops
 
-
-Career paths and specializations
-
-Focus:
-
-Application
-- Backend
-- Full Stack
-- Database
-
-Infrastructure
-- DevOps
-- Cloud architect
-- Application monitoring
-
-Data 
-- Data Analyst
-- AI and Data Scientist
-- Machine Learning
-
-Reliability
-- QA
-- Cyber Security

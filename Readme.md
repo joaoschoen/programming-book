@@ -14,6 +14,8 @@ Then that got into me writing a script to scrape that data automatically, I star
 
 So I decided to turn this whole thing into a book to both document my process of learning, deepen my knowledge while doing so, and help people who are starting to do their own learning.
 
+Due to the way I'm writing this book I might change stuff drastically and reorder entire chapters at this early stage, I've actually started writing a [diary](./diary.md) to document all of the changes that occur during the writing and my thoughts on why I'm doing them.
+
 ## Repository structure
 
 I have set up link between the files that contain the content of this book, you can click the links to navigate around.

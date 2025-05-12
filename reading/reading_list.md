@@ -8,6 +8,7 @@
 - https://en.wikipedia.org/wiki/MIME
 - https://en.wikipedia.org/wiki/POSIX
 - https://en.wikipedia.org/wiki/Resource_Description_Framework
+- https://en.wikipedia.org/wiki/Transport_Layer_Security
 
 ## devops
 
