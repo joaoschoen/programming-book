@@ -1,4 +1,4 @@
-# A book about Web Development
+# A book about Computer Science, programming and web development
 
 ## Who am I
 
@@ -6,7 +6,9 @@ Hello, my name is João but my nickname online is Hordian so you can call me tha
 
 ## What is this
 
-This repository is a book that I'm writing to structure my knowledge about software development and specifically in my area of expertise which is Web Development.
+This is a guidebook about programming, it's going to cover all the knowledge that I have on the field and try to give you a good path to getting into programming even if you don't understand how a computer works. 
+
+## How I started writing it
 
 It started writing it kind of by accident, I was doing a job search and taking notes on a spreadsheet of what technologies the job postings were asking for.
 
