@@ -4,10 +4,6 @@
 
 Hello, my name is João but my nickname online is Hordian so you can call me that instead if it's easier to pronounce, I've been programming since 2015 and have entered the world of Web Development in 2020, I've been streaming the process of writing this book on [Twitch](https://twitch.tv/hordian)
 
-## What is this
-
-This is a guidebook about programming, it's going to cover all the knowledge that I have on the field and try to give you a good path to getting into programming even if you don't understand how a computer works. 
-
 ## How I started writing it
 
 It started writing it kind of by accident, I was doing a job search and taking notes on a spreadsheet of what technologies the job postings were asking for.
@@ -17,6 +13,10 @@ Then that got into me writing a script to scrape that data automatically, I star
 So I decided to turn this whole thing into a book to both document my process of learning, deepen my knowledge while doing so, and help people who are starting to do their own learning.
 
 Due to the way I'm writing this book I might change stuff drastically and reorder entire chapters at this early stage, I've actually started writing a [diary](./diary.md) to document all of the changes that occur during the writing and my thoughts on why I'm doing them.
+
+## Contact
+
+In case you have any questions and want to contact me about them, feel free to join the [Discord server](https://discord.gg/japnpW3Rdy).
 
 ## Repository structure
 

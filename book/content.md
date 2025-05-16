@@ -9,14 +9,13 @@
   - [Learning points](#learning-points)
       - [Abstraction Layer](#abstraction-layer)
   - [A Preface for beginners](#a-preface-for-beginners)
-    - [Editor note:](#editor-note)
-    - [End of editor note](#end-of-editor-note)
 - [Chapter 2: Sources of knowledge](#chapter-2-sources-of-knowledge)
   - [roadmap.sh](#roadmapsh)
   - [freecodecamp](#freecodecamp)
   - [wikipedia](#wikipedia)
   - [computerphile](#computerphile)
   - [OWASP](#owasp)
+  - [Build your own X](#build-your-own-x)
 - [Chapter 3: A brief history of mathematics, philosophy and technology](#chapter-3-a-brief-history-of-mathematics-philosophy-and-technology)
   - [Painting the canvas](#painting-the-canvas)
       - [Powers of ten](#powers-of-ten)
@@ -125,11 +124,11 @@
 
 # Chapter 1: Introduction
 
-This is a book on the structure of web development and it's many moving parts. The goal here is producing a comprehensive and holistic guide on how things work and what to study.
+I started writing this book to explore web development which is my area of expertise, but I've since retroactively rewritten it to cover the basics of Computer Science too, so that new developers can have an easier time learning the things that aren't taught in courses these days.
 
-I'd first like to set up the game plan on how this study will be structured, I'm going to follow an inside out approach on how to the topics, going from the innermost most simple components and building out to the things that surround it.
+I'd first like to set up the game plan on how the knowledge in this book will be structured, I'm going to follow an inside out approach, starting without any jargon that's common in the field of computer science and slowly building it up, teaching you this jargon step by step so that you don't have to face the mountains of knowledge all at once.
 
-I'll try my best to be as much of a generalist as possible, however do note that I have a huge bias towards web development as it is my specialization.
+After we're done with the introduction to Computer Science and programming I'll branch into the many specializations within the field of Web Development, note that there are other fields withing programming that you can specialize in such as Game Development or Embedded systems, but since I don't have experience in those areas I won't be able to give much useful information, if I'm able in the future to add information about that I might create some chapters about it but for now that's going to be our game plan.
 
 ## Opinions and personal preference
 
@@ -141,11 +140,13 @@ This won't affect much the earlier chapters of the book, but when discussing the
 
 ## Methodology
 
-I admit my humbleness in and the power of the giants that came before me, as such during this research I won't be explaining things in depth that I don't feel qualified to explain or that aren't my own insights.
+I admit my humbleness and the power of the giants that came before me, as such during this research I won't be explaining things in depth that I don't feel qualified to explain or that aren't my own insights, since there's a lot of free knowledge available already on the internet I'll instead point you to where you have to go to study.
 
-Within this book there will be sections I'll call Learning Points, these will tangential points of information gathered from external sources that are knowledge required for the understanding of the surrounding context.
+This book is a guidebook, I want to provide to you a path which you can follow, with this in mind I created sections of this book which I'll call Learning Points, these will be the require reading for this book gathered from external sources, usually in the form of videos, playlists or articles.
 
-It is important to note that after each of them the text will assume you have gone through that learning point and that you understand the concept explained in it, there is no point in me explaining things that have already been explained unless I have an insight on it or feel that additional explanation is required.
+After each Learning Point the text that follows expects that you have studied it and will start using terms that are taught in it, 
+
+If I feel examples are needed for better understanding I'll write those in separate files, I will provide a link to the file containing said example and on that file a link to come back to where you were before so you won't get lost if you change files while reading the book.
 
 ## Learning points
 
@@ -162,41 +163,17 @@ Learning points will usually look something like this:
 
 I have read this article, it took me 5 minutes to read it and I considered that a few segments in it were worth skipping because they were unnecessary, some learning points will have more or less sections.
 
-On longer articles I might add the minimum recommended segments that I believe you should read to move along but nothing stops you from reading the whole article if you're interested, anything that is historical knowledge of things used to be will usually be skipped.
-
-I will provide explanations or examples where I believe they are needed but I will usually offload it to the articles or videos themselves.
-
-If I wrote an example about a learning point I will provide a link to the file containing said example and on that file a link to come back to the learning point so you won't get lost if you change files while reading the book.
+I'll list the relevant sections of the article and my reading time is based on those, some times there's way too much stuff and some concepts that are super complicated to understand, and in depth knowledge about those isn't a requirement, just the knowledge that they exist will suffice.
 
 ## A Preface for beginners
-
-### Editor note:
-
-The structure of this book is changing a lot while I write it, I'm writing this during the writing of chapter 4, I will have to rewrite a lot of it over time to conform to the way I want things to be, as such this preface will be edited out or moved later.
-
-If you want to have a hands on approach to how you do your studying and get a more practical approach then you can still follow my recommendations in this preface, however, I'm working on writing a deeper guidance on computer science.
-
-I do however believe that you can learn through following my suggestions below.
-
-### End of editor note 
 
 Each part of the journey of learning how to program is a marathon that you must run, running a marathon is a very simple thing, you put one foot after the other for 42km and you're done, it is simple but that doesn't mean it isn't hard and that a lot of effort isn't required, the opposite of that is true.
 
 I want to have a gentleman's agreement with you, each of us will do our part of this journey, I want you to expect of me that I do my best to try and teach you, at the same time I expect of you that you do your best to learn and study, as such I do expect you to have already gone through the Abstraction Layers learning point and read it.
 
-My goal on how to present the knowledge will be to introduce a high abstraction level concept and then go to the layers below it as seem fit.
-
-If you try to learn programming straight away without having a fundamental understanding of what this field of knowledge is about there can be a huge disconnect and lack of understanding because of all of the jargon that's used in the field.
-
-With any field of knowledge as it grows it becomes hard to understand what people are talking about, so to make communication easier the members of that field create terms to condense knowledge, if you're trying to have a conversation with someone about the field and both of you understand the jargons of the field you can skip loads of the initial steps and get to the point faster.
-
-I will try my best to make your life easier by explaining things without the jargon and easing you into it as we move along.
-
 There is a reassurance that I want to give to you, please don't be alarmed or stress yourself over not understanding the meaning of the terms that you read or hear while studying. You do not need to understand everything that is going on all at once, it is part of the process of learning to not understand things.
 
 I myself am learning a lot while writing this book and reading the articles that I'll cite throughout it, I've been studying programming for a decade and web development specifically for half a decade, learning takes time and there is no shame in not knowing something or having questions.
-
-If this still bothers you to not understand something, a good practice is looking on Wikipedia for any term that you don't understand and reading **only** the first two paragraphs about it, you don't need to understand in depth how things work, just what they are.
 
 Pro tip 1: note down every new term that you don't understand, over time this will help you measure how much you know and how much you don't know.
 
@@ -238,6 +215,12 @@ If you want to acquire very deep and knowledge about Computer Science in general
 For knowledge of best practices about software security you should definitely always read the latest information provided by OWASP.
 
 [Website](https://owasp.org/)
+
+## Build your own X
+
+This is a repository filled with projects that you can build hands on if you want to have practical experience with developing some technologies.
+
+[Github repository](https://github.com/codecrafters-io/build-your-own-x)
 
 # Chapter 3: A brief history of mathematics, philosophy and technology
 
