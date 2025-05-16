@@ -88,7 +88,7 @@
       - [World Wide Web](#world-wide-web)
       - [Full Stack Developer Roadmap](#full-stack-developer-roadmap)
       - [MERN Stack Tutorial with Deployment – Beginner's Course](#mern-stack-tutorial-with-deployment--beginners-course)
-- [Chapter 8: Applications, systems and the internet (WIP)](#chapter-8-applications-systems-and-the-internet-wip)
+- [Chapter 10: Applications, systems and the internet (WIP)](#chapter-10-applications-systems-and-the-internet-wip)
       - [Information Theory \& Coding](#information-theory--coding)
       - [Process (computing)](#process-computing)
       - [Inter-Process Communication](#inter-process-communication)
@@ -99,7 +99,7 @@
       - [OSI model](#osi-model)
       - [TCP/IP model](#tcpip-model)
       - [HTTP](#http)
-- [Chapter 9: Defining what is Web Development](#chapter-9-defining-what-is-web-development)
+- [Chapter 11: Defining what is Web Development](#chapter-11-defining-what-is-web-development)
       - [Web development](#web-development)
   - [Career paths and specializations](#career-paths-and-specializations)
   - [Application Focused](#application-focused)
@@ -722,7 +722,7 @@ So here is a full course on how to write an entire Full Stack Web Application, i
 I might add more learning points here as time goes on and, but doing all of them will teach you the bare minimum required for following the rest of the book.
 
 
-# Chapter 8: Applications, systems and the internet (WIP)
+# Chapter 10: Applications, systems and the internet (WIP)
 
 Focusing on the development side of applications
 
@@ -851,7 +851,7 @@ With this we know the definitions and standards put in place to make system comm
 And now we do, the HTTP standard is the working horse of web development communication.
 
 
-# Chapter 9: Defining what is Web Development
+# Chapter 11: Defining what is Web Development
 
 Call it Software Development, Information Technology, Computer Science, however you put it the field of knowledge is absurdly vast.
 
