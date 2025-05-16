@@ -51,26 +51,45 @@
       - [Computer Program](#computer-program)
       - [Programming languages](#programming-languages)
       - [Algorithm](#algorithm)
-- [Chapter 6: Computer architecture](#chapter-6-computer-architecture)
+- [Chapter 6: Electronic machines](#chapter-6-electronic-machines)
   - [The electronics of computers](#the-electronics-of-computers)
       - [Binary code](#binary-code)
       - [Why Use Binary?](#why-use-binary)
       - [Where did Bytes Come From?](#where-did-bytes-come-from)
       - [Boolean algebra](#boolean-algebra)
       - [Logic Gates](#logic-gates)
-      - [How Computer Memory Works](#how-computer-memory-works)
-  - [Computers systems and architecture](#computers-systems-and-architecture)
+  - [Hierarchy of electronic systems](#hierarchy-of-electronic-systems)
+      - [System](#system)
+      - [Automata theory](#automata-theory)
+      - [Chomsky Hierarchy levels](#chomsky-hierarchy-levels)
+      - [Turing Machines Explained](#turing-machines-explained-1)
+      - [Turing Complete](#turing-complete)
+- [Chapter 7: Computers](#chapter-7-computers)
       - [Computer](#computer)
       - [Von Neumann Architecture](#von-neumann-architecture)
+  - [The parts of a Von Neumann Computer](#the-parts-of-a-von-neumann-computer)
+  - [Processing unit](#processing-unit)
+    - [ALU](#alu)
+    - [Registers](#registers)
+  - [Control unit](#control-unit)
+    - [Instruction register](#instruction-register)
+    - [Program counter](#program-counter)
+  - [Memory](#memory)
+  - [External storage](#external-storage)
+  - [Input and output](#input-and-output)
+  - [Modern Computers](#modern-computers)
       - [Inside the CPU](#inside-the-cpu)
-- [Chapter 7: Programming (WIP)](#chapter-7-programming-wip)
+      - [How Computer Memory Works](#how-computer-memory-works)
+- [Chapter 8: Machine language and compilers (WIP)](#chapter-8-machine-language-and-compilers-wip)
+      - [Complex instruction set computer](#complex-instruction-set-computer)
+- [Chapter 9: Programming logic (WIP)](#chapter-9-programming-logic-wip)
       - [Learn JavaScript - Full Course for Beginners](#learn-javascript---full-course-for-beginners)
       - [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
       - [World Wide Web](#world-wide-web)
       - [Full Stack Developer Roadmap](#full-stack-developer-roadmap)
       - [MERN Stack Tutorial with Deployment – Beginner's Course](#mern-stack-tutorial-with-deployment--beginners-course)
 - [Chapter 8: Applications, systems and the internet (WIP)](#chapter-8-applications-systems-and-the-internet-wip)
-      - [System](#system)
+      - [Information Theory \& Coding](#information-theory--coding)
       - [Process (computing)](#process-computing)
       - [Inter-Process Communication](#inter-process-communication)
   - [Full Stack Application](#full-stack-application)
@@ -433,9 +452,11 @@ A set of instructions that is written to solve a well defined problem involving 
 
 We are advancing in our understanding of how to think like a programmer but before we start to actually writing programs I want you to have an understanding about how computers work.  
 
-# Chapter 6: Computer architecture 
+# Chapter 6: Electronic machines
 
-Let's step down into the trenches of electronic and computer engineering, let's have a deep dive on how computer systems work on a very fundamental level so we can start building complexity back up. Before looking at what computers are let's first look at what they are made of in the most fundamental way possible.
+In it's essence a computer is a machine created to execute mathematic calculations, but before we look into how computers work I think it's important to look a bit into the machines that were created before the invention of computers. So let's look on how electronics are used to solve problems.
+
+Let's step down into the trenches of electronic and computer engineering, let's have a deep dive into the very fundamental building blocks so we can start building complexity back up with them. 
 
 ## The electronics of computers
 
@@ -480,17 +501,62 @@ These basic operations logical operations are the building blocks of computer el
 
 #### [Logic Gates](https://www.youtube.com/playlist?list=PLzH6n4zXucko1YVRjhnquPaNOfZrymVQH)
 - Source: YouTube channel Computerphile
-- Videos: 4
-- Watch time: 35 minutes
+- Videos: Watch the first 3 videos of the playlist
+- Watch time: 20 minutes
 
-These are the building blocks of digital electronics, every more complex electronic system is build by combining these logic gates.
+In the world of computer engineering logic gates are the building blocks of digital electronics, every more complex electronic system is build by combining these logic gates. 
 
-#### [How Computer Memory Works](https://www.youtube.com/playlist?list=PLzH6n4zXuckoxFPyhsMOYMGqyZOeN2SDJ)
+## Hierarchy of electronic systems
+
+Before we look into electronic systems, which are a specific type of system, let's look at the definition of what a system is.
+
+#### [System](https://en.wikipedia.org/wiki/System)
+- Source: Wikipedia
+- Reading time: ~3 minutes
+- Recommended segments:
+  - Introduction
+  - Information and computer science
+
+An electronic system then is one that is created using electronic components, but why are they created? they are created to solve a specific problem.
+
+More complex problems require more complex systems, and the scale of complexity of these electronic machines are defined by the Chomsky Hierarchy.
+
+Chomsky Hierarchy is a theorem from linguistics that defines the complexity of problems, given a problem that needs to be solved, this Hierarchy tells us how complex this problem is. 
+
+In Computer Science the different machines that can solve each category of these problems is defined in the Automata Theory.
+
+#### [Automata theory](https://en.wikipedia.org/wiki/Automata_theory)
+- Source: Wikipedia
+- Reading time: ~3 minutes
+- Recommended segments:
+  - Introduction
+
+The first level of these machines is what you get if you combine logic gates to solve a simple problem like a comparison, you could use a logic gate to turn on a light bulb if two switches are turned on.
+
+The second level of these machines are called Finite State Machines, the following videos explain the types of problems that these machines solve.  
+
+#### [Chomsky Hierarchy levels](https://www.youtube.com/playlist?list=PLzH6n4zXuckpkgSrHX87sDCmEZSumytL3)
 - Source: YouTube channel Computerphile
-- Videos: 3 (the first video of this playlist was the last of the previous one)
-- Watch time: 24 minutes
+- Videos: Watch the first 2 videos
+- Watch time: 16 minutes
 
-## Computers systems and architecture
+Then we'll skip to the fourth level and talk about Turing Machines, they are a way of creating a machine that could have an infinite amount of different states.
+
+#### [Turing Machines Explained](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+- Source: YouTube channel Computerphile
+- Watch time: 5 minutes
+
+If one of these machines is built in a way that it can solve any kind of problem based on a program, we call it Turing Complete.
+
+#### [Turing Complete](https://www.youtube.com/watch?v=RPQD7-AOjMI)
+- Source: YouTube channel Computerphile
+- Watch time: 6 minutes
+
+These are the building blocks, we can now look at what modern computers are like and understand each of their parts.
+
+# Chapter 7: Computers
+
+We know what a system is, in essence a computer is a system built to execute computations.
 
 #### [Computer](https://en.wikipedia.org/wiki/Computer)
 - Source: Wikipedia
@@ -498,7 +564,7 @@ These are the building blocks of digital electronics, every more complex electro
 - Recommended sections:
   - Introduction
 
-This explains what they are in concept but doesn't help us understand them much, so we have to look deeper into what computers are. The structure of how computers are build to this day can be found by looking at the Von Neumann architecture.
+This explains what they are in concept but doesn't help us understand how they work, so we have to look deeper. Computers have an internal structure to how they are built and this structure can be found by looking at the Von Neumann architecture.
 
 #### [Von Neumann Architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 - Source: Wikipedia
@@ -506,10 +572,12 @@ This explains what they are in concept but doesn't help us understand them much,
 - Recommended sections:
   - Introduction
 
+## The parts of a Von Neumann Computer
+
 This model structures a computer into the following parts:
 
 - Processing unit
-  - Arithmetic logic unit
+  - Arithmetic logic unit (ALU)
   - Processor registers
 - Control unit
   - Instruction register
@@ -518,16 +586,72 @@ This model structures a computer into the following parts:
 - External storage
 - Input and output
 
-This architecture defines the most basic look on what a computer is and what it has to have to execute a program, but computers evolved and got more complex, everything that this model describes can be found inside a single component of a computer, the CPU.
+## Processing unit
+
+The processing unit has two components, those being the ALU and the registers.
+
+### ALU
+
+The ALU is composed of circuits designed to perform the mathematical operations of algebra: addition, subtraction, multiplication and division; and the logical operations of boolean logic: and, or, not, xor, etc...
+
+### Registers
+
+This is where we store the values that we're going to use for these calculations.
+
+## Control unit
+
+The processing unit is divided into an Instruction register and a Program counter.
+
+### Instruction register
+
+This is where the current instruction that the computer will execute is stored.
+
+### Program counter
+
+A program is a set of instructions, since we have multiple instructions to execute the program counter keeps track of where we are in this list of instructions.
+
+## Memory
+
+Our programs are usually too big to be processed all at once, so we store this program into the memory before processing it, and some times we will need to use the results of our computations later so we can also store these results in memory.
+
+## External storage
+
+The computer memory is only used while the computer is turned on, but we need to store our data and programs somewhere, and this is where we store it.
+
+## Input and output
+
+Some programs require outside information to be executed, if we're using a calculator we need to have buttons so that we can press those and tell the calculator what numbers we want to use in our calculation, these are examples of inputs.
+
+In the same way we need a way of showing the result of our calculations to the user, the screen of a calculator is an example of an output.
+
+## Modern Computers
+
+This architecture defines the most basic look on what a computer is and what it has to have to execute a program, but computers evolved and got more complex, most of what this model describes can be found inside a single component of a computer, the CPU.
 
 #### [Inside the CPU](https://www.youtube.com/watch?v=IAkj32VPcUE)
 - Source: Youtube channel Computerphile
 - Watch time: 11 minutes
 
-This video explains how one of computers with this architecture work, these days computers are way more complex then that but for our needs this is a good enough understanding.
+This video explains how a computer like this does it's operations, but how does it load the programs from the storage into memory and how does it saves data into memory?
 
-# Chapter 7: Programming (WIP)
+#### [How Computer Memory Works](https://www.youtube.com/playlist?list=PLzH6n4zXuckoxFPyhsMOYMGqyZOeN2SDJ)
+- Source: YouTube channel Computerphile
+- Videos: 3 (the first video of this playlist was the last of the previous one)
+- Watch time: 24 minutes
 
+# Chapter 8: Machine language and compilers (WIP)
+
+The [Inside the CPU](#inside-the-cpu) video talks about how the computer will fetch instructions from it's memory, these instructions are codes that select which feature of the CPU it's going to use now.
+
+#### [Complex instruction set computer](https://en.wikipedia.org/wiki/Complex_instruction_set_computer)
+
+
+If you look at a modern programming language you'll see a lot of words in english, the words we use in our programming language to write down the instructions are called the syntax of our programming language.
+
+But a processor only understands binary, ones and zeroes, so how do we write instructions using numbers? this is where machine language comes in.
+
+
+# Chapter 9: Programming logic (WIP)
 
 boolean logic
 
@@ -602,14 +726,15 @@ I might add more learning points here as time goes on and, but doing all of them
 
 Focusing on the development side of applications
 
-#### [System](https://en.wikipedia.org/wiki/System)
-- Source: Wikipedia
-- Reading time: ~3 minutes
-- Recommended segments:
-  - Introduction
-  - Information and computer science
+TODO: 
 
-So we use systems, we write programs and execute them inside this system, and since the logic of our application is spread between multiple parts 
+#### [Information Theory & Coding](https://www.youtube.com/playlist?list=PLzH6n4zXuckpKAj1_88VS-8Z6yn9zX_P6)
+- Source: YouTube channel Computerphile
+- Videos: 5
+- Watch time: ~49 minutes
+
+This is a playlist that talks about IT and errors during data transmission
+
 
 #### [Process (computing)](https://en.wikipedia.org/wiki/Process_(computing))
 - Source: Wikipedia
